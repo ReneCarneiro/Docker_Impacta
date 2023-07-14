@@ -12,7 +12,7 @@ docker pull mysql
 
 docker run -d --name mysql-docker-container -e MYSQL_ROOT_PASSWORD=docker1234 mysql
 
-para testar o container acima, exeutando o comando abaixo, caso tudo esteja correto a uma mensagem relacionada ao mysql será exibida
+para testar o container acima, exeutando o comando abaixo, caso tudo esteja correto uma mensagem relacionada ao mysql será exibida.
 
 docker exec -it mysql-docker-container mysql -p 
 
